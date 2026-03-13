@@ -686,22 +686,21 @@ export default function App() {
   )
 
   const handleUpdateBlock = useCallback((blockId, contentUpdates) => {
-    setBlocks((prev) => {
-      const updated = prev.map((b) =>
+    setBlocks((prev) =>
+      prev.map((b) =>
         b.id === blockId
           ? { ...b, content: { ...b.content, ...contentUpdates } }
           : b
       )
-      // Auto-name design from first heading's h1
-      if (contentUpdates.h1 !== undefined) {
-        const firstHeading = updated.find((b) => b.type === 'heading')
-        if (firstHeading && firstHeading.id === blockId && contentUpdates.h1.trim()) {
-          handleRenameDesign(activeDesignId, contentUpdates.h1.trim())
-        }
+    )
+    // Auto-name design from first heading's h1
+    if (contentUpdates.h1 !== undefined && contentUpdates.h1.trim()) {
+      const firstHeading = blocks.find((b) => b.type === 'heading')
+      if (firstHeading && firstHeading.id === blockId) {
+        handleRenameDesign(activeDesignId, contentUpdates.h1.trim())
       }
-      return updated
-    })
-  }, [activeDesignId, handleRenameDesign])
+    }
+  }, [blocks, activeDesignId, handleRenameDesign])
 
   /* ——— Drag and Drop ——— */
 
