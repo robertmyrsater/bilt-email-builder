@@ -30,7 +30,7 @@ const THEMES = {
 }
 
 function wabiLogoImg(baseUrl) {
-  return `<img src="${baseUrl}/wabi-logo-dark.svg" alt="wabi" width="86" height="20" style="display:inline-block;vertical-align:middle;" />`
+  return `<img src="${baseUrl}/wabi-logo-dark.png" alt="wabi" width="86" height="20" style="display:inline-block;vertical-align:middle;" />`
 }
 
 function renderHeader(fs, baseUrl) {
@@ -168,10 +168,10 @@ function renderVideo(content) {
 function renderFooter(content, t, fs, baseUrl) {
   const unsubText = content.unsubscribeText || ''
   const socialIcons = [
-    { name: 'X', href: 'https://x.com/wabi', file: 'brand-twitter.svg' },
-    { name: 'Discord', href: 'https://discord.gg/wabi', file: 'brand-discord.svg' },
-    { name: 'Instagram', href: 'https://www.instagram.com/joinwabi', file: 'brand-instagram.svg' },
-    { name: 'TikTok', href: 'https://www.tiktok.com/@gotwabi', file: 'brand-tiktok.svg' },
+    { name: 'X', href: 'https://x.com/wabi', file: 'brand-twitter.png' },
+    { name: 'Discord', href: 'https://discord.gg/wabi', file: 'brand-discord.png' },
+    { name: 'Instagram', href: 'https://www.instagram.com/joinwabi', file: 'brand-instagram.png' },
+    { name: 'TikTok', href: 'https://www.tiktok.com/@gotwabi', file: 'brand-tiktok.png' },
   ]
   const iconCircles = socialIcons.map(icon =>
     `<a href="${icon.href}" target="_blank" class="wabi-social-icon" style="display:inline-block;text-decoration:none;width:32px;height:32px;border-radius:999px;background:#F5F5F5;text-align:center;line-height:32px;margin:0 4px;box-shadow:0 0 0 0 rgba(0,0,0,0.02),0 2px 4px 0 rgba(0,0,0,0.16);vertical-align:middle;font-size:0;" title="${icon.name}"><!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" style="width:32px;height:32px" arcsize="50%" fillcolor="#eeeeee" stroke="f"><v:textbox inset="0,0,0,0" style="mso-fit-shape-to-text:true"><center><![endif]--><img src="${baseUrl}/${icon.file}" alt="${icon.name}" width="14" height="14" style="vertical-align:middle;" /><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a>`
