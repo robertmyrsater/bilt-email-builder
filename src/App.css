@@ -818,25 +818,25 @@
 .image-url-form input {
   flex: 1;
   padding: 10px 14px;
-  background: var(--surface);
-  border: 1px solid var(--border-strong);
+  background: var(--email-bg);
+  border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: var(--radius-sm);
-  color: var(--text-primary);
+  color: var(--email-text);
   font-family: 'Selecta', sans-serif;
   font-size: 13px;
   outline: none;
 }
 
 .image-url-form input:focus {
-  border-color: var(--accent);
+  border-color: var(--email-text);
 }
 
 .image-url-form button {
   padding: 10px 16px;
-  background: var(--accent);
+  background: var(--email-text);
   border: none;
   border-radius: var(--radius-sm);
-  color: white;
+  color: var(--email-bg);
   font-family: 'Selecta', sans-serif;
   font-size: 13px;
   font-weight: 500;
