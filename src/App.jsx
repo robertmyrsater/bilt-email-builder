@@ -935,7 +935,9 @@ export default function App() {
 
   /* ——— Export ——— */
 
-  const exportOptions = { subject, preheader, fontUrl, fontFamily }
+  const prodUrl = 'https://wabi-email-builder.vercel.app'
+  const baseUrl = window.location.hostname === 'localhost' ? prodUrl : window.location.origin
+  const exportOptions = { subject, preheader, fontUrl, fontFamily, baseUrl }
 
   const handleExport = useCallback(async () => {
     const html = renderEmailHTML(blocks, exportOptions)
