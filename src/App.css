@@ -431,7 +431,7 @@
 /* ——— Email Block Previews ——— */
 
 .email-header {
-  padding: 8px 24px;
+  padding: 24px 24px 0;
   text-align: center;
   font-size: 18px;
   font-weight: 600;
@@ -700,16 +700,6 @@
   outline: none;
 }
 
-.email-footer-unsub-link {
-  font-size: 14px;
-  font-weight: 400;
-  line-height: 16px;
-  color: #737373;
-  text-decoration: underline;
-  margin: 0;
-  cursor: default;
-}
-
 .email-footer-copyright {
   font-size: 14px;
   font-weight: 400;
@@ -735,11 +725,34 @@
   justify-content: center;
   background: rgba(255, 255, 255, 0.07);
   box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.02), 0 2px 4px 0 rgba(0, 0, 0, 0.16);
+  text-decoration: none;
+  cursor: default;
 }
 
 .email-footer-social-icon svg {
   width: 14px;
   height: 14px;
+  color: #737373;
+}
+
+.email-footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.email-footer-link {
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  color: #737373;
+  text-decoration: underline;
+  cursor: default;
+}
+
+.email-footer-link-sep {
+  font-size: 14px;
   color: #737373;
 }
 
@@ -954,6 +967,150 @@
   opacity: 0.85;
   overflow: hidden;
   pointer-events: none;
+}
+
+/* ——— Subject & Preheader Bar ——— */
+
+.subject-preheader-bar {
+  display: flex;
+  align-items: center;
+  gap: 1px;
+  background: var(--border);
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+}
+
+.subject-input,
+.preheader-input {
+  flex: 1;
+  padding: 8px 16px;
+  font-size: 12px;
+  font-family: 'Selecta', sans-serif;
+  font-weight: 400;
+  color: var(--text-primary);
+  background: var(--surface);
+  border: none;
+  outline: none;
+}
+
+.subject-input {
+  font-weight: 500;
+}
+
+.subject-input::placeholder,
+.preheader-input::placeholder {
+  color: var(--text-tertiary);
+}
+
+/* ——— Sidebar Input ——— */
+
+.sidebar-input {
+  width: 100%;
+  padding: 6px 10px;
+  font-size: 11px;
+  font-family: 'Selecta', sans-serif;
+  color: var(--text-primary);
+  background: var(--surface-2);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  outline: none;
+  transition: border-color 0.15s;
+}
+
+.sidebar-input:focus {
+  border-color: var(--border-strong);
+}
+
+.sidebar-input::placeholder {
+  color: var(--text-tertiary);
+}
+
+/* ——— Download Menu ——— */
+
+.download-menu {
+  position: absolute;
+  top: calc(100% + 4px);
+  right: 0;
+  z-index: 50;
+  min-width: 180px;
+  padding: 4px;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
+}
+
+.download-menu button {
+  display: block;
+  width: 100%;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: 'Selecta', sans-serif;
+  color: var(--text-primary);
+  background: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: left;
+  transition: background 0.1s;
+}
+
+.download-menu button:hover {
+  background: var(--surface-2);
+}
+
+/* ——— Send Test Modal ——— */
+
+.send-test-modal {
+  width: 360px;
+  padding: 24px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  box-shadow: 0 8px 40px rgba(0, 0, 0, 0.5);
+}
+
+.send-test-input {
+  width: 100%;
+  padding: 10px 14px;
+  font-size: 13px;
+  font-family: 'Selecta', sans-serif;
+  color: var(--text-primary);
+  background: var(--surface-2);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius-sm);
+  outline: none;
+  box-sizing: border-box;
+}
+
+.send-test-input:focus {
+  border-color: var(--accent);
+}
+
+.send-test-btn {
+  display: block;
+  width: 100%;
+  margin-top: 12px;
+  padding: 10px;
+  font-size: 13px;
+  font-weight: 500;
+  font-family: 'Selecta', sans-serif;
+  color: #000;
+  background: var(--accent);
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  transition: opacity 0.15s;
+}
+
+.send-test-btn:hover:not(:disabled) {
+  opacity: 0.85;
+}
+
+.send-test-btn:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
 }
 
 /* ——— Canvas End Drop Zone ——— */

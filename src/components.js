@@ -5,6 +5,7 @@ export const COMPONENT_TYPES = {
   CTA: 'cta',
   DIVIDER: 'divider',
   IMAGE: 'image',
+  VIDEO: 'video',
   FOOTER: 'footer',
 }
 
@@ -32,6 +33,12 @@ export const defaultContent = {
     src: '',
     alt: '',
     link: '',
+  },
+  [COMPONENT_TYPES.VIDEO]: {
+    thumbnailSrc: '',
+    videoUrl: '',
+    alt: '',
+    size: 'medium',
   },
   [COMPONENT_TYPES.FOOTER]: {
     unsubscribeText: 'You are receiving this email because you opted-in to receive updates from Wabi.',
