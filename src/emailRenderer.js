@@ -1,7 +1,7 @@
-const FONT_STACK = "'Selecta', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
+const FONT_STACK = "'GT America', 'Inter', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif"
 
-function wabiLogoSvg(color) {
-  return `<svg width="86" height="20" viewBox="0 0 86 20" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#wc)"><path d="M38.7452 19.7062H35.3506L30.9655 5.5292H34.5023L37.1895 15.7361L40.019 5.5292H43.4136L46.384 15.7361L49.0712 5.5292H52.4658L48.0806 19.7062H44.6861L41.7156 9.49926L38.7452 19.7062ZM57.5555 19.99C54.726 19.99 52.463 18.2882 52.463 15.7375C52.463 13.1869 54.3019 11.8819 56.9891 11.485L59.8186 11.0599C60.6669 10.9187 61.5166 10.6348 61.5166 9.64191C61.5166 8.36657 60.2441 7.79882 59.1112 7.79882C57.4132 7.79882 56.2817 8.64904 56.1408 10.3509H52.7462C52.7462 7.23247 55.4334 5.24674 59.1112 5.24674C62.789 5.24674 65.0521 7.23106 65.0521 10.6334V19.7062H61.7984V18.0043C60.8078 19.4223 59.2521 19.9886 57.5555 19.9886V19.99ZM58.2629 17.438C59.9609 17.438 61.6575 16.3039 61.6575 14.3195V13.0442L58.9703 13.4693C57.2723 13.725 55.9999 14.1783 55.9999 15.5963C55.9999 16.8716 57.1314 17.4394 58.2629 17.4394V17.438ZM74.3988 19.99C72.023 19.99 70.4941 18.8559 70.0136 18.0057V19.7076H66.7599V0.425042H70.1545V7.22965C70.5786 6.37942 72.0216 5.24532 74.3973 5.24532C78.3584 5.24532 80.9033 8.36375 80.9033 12.6177C80.9033 17.1541 78.357 19.99 74.3973 19.99H74.3988ZM73.8323 17.1541C76.2363 17.1541 77.5101 15.4522 77.5101 12.6177C77.5101 10.3495 76.2377 8.10953 73.8323 8.10953C71.286 8.10953 70.1545 10.3495 70.1545 12.6177C70.1545 14.8859 71.286 17.1541 73.8323 17.1541ZM84.0188 3.96999C82.8873 3.96999 82.039 3.11977 82.039 1.98567C82.039 0.851565 82.8873 0.00134277 84.0188 0.00134277C85.1503 0.00134277 85.9986 0.851565 85.9986 1.98567C85.9986 3.11977 85.1503 3.96999 84.0188 3.96999ZM85.7168 19.7062H82.3222V5.5292H85.7168V19.7062Z" fill="${color}"/><path d="M7.88825 9.20836C7.88825 7.0249 6.12263 5.25525 3.94413 5.25525C1.76563 5.25525 0 7.0249 0 9.20836C0 11.3918 1.76563 13.1615 3.94413 13.1615C6.12263 13.1615 7.88825 11.3918 7.88825 9.20836Z" fill="${color}"/><path d="M15.7624 9.21691C15.7624 7.03344 13.9968 5.26379 11.8183 5.26379C9.63977 5.26379 7.87415 7.03344 7.87415 9.21691C7.87415 11.4004 9.63977 13.17 11.8183 13.17C13.9968 13.17 15.7624 11.4004 15.7624 9.21691Z" fill="${color}"/><path d="M23.6451 9.20836C23.6451 7.0249 21.8795 5.25525 19.701 5.25525C17.5225 5.25525 15.7568 7.0249 15.7568 9.20836C15.7568 11.3918 17.5225 13.1615 19.701 13.1615C21.8795 13.1615 23.6451 11.3918 23.6451 9.20836Z" fill="${color}"/><path d="M19.6995 16.0469C19.6995 13.8634 17.9338 12.0938 15.7553 12.0938C13.5768 12.0938 11.8112 13.8634 11.8112 16.0469C11.8112 18.2303 13.5768 20 15.7553 20C17.9338 20 19.6995 18.2303 19.6995 16.0469Z" fill="${color}"/><path d="M11.8254 16.0342C11.8254 13.8507 10.0598 12.0811 7.88126 12.0811C5.70276 12.0811 3.93713 13.8507 3.93713 16.0342C3.93713 18.2176 5.70276 19.9873 7.88126 19.9873C10.0598 19.9873 11.8254 18.2176 11.8254 16.0342Z" fill="${color}"/></g><defs><clipPath id="wc"><rect width="86" height="20" fill="white"/></clipPath></defs></svg>`
+function biltLogoSvg(color) {
+  return `<svg width="144" height="24" viewBox="0 0 144 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M120 24V0H144V24H120ZM136.688 14.6563V9.34375H142V14.6563H136.688ZM127.969 7.34375V2H142V7.34375H127.969ZM125.969 2V7.34375H122V2H125.969ZM134.688 9.34375V14.6563H122V9.34375H134.688ZM130.719 16.6563V22H142V16.6563H130.719ZM128.719 16.6563V22H122V16.6563H128.719Z" fill="${color}"/><path d="M79.125 0V2.53125H89.9531V24H93.2344V2.53125H104.062V0H79.125Z" fill="${color}"/><path d="M54.6094 0V24H75.5156V21.4688H57.8906V0H54.6094Z" fill="${color}"/><path d="M40.1719 0H36.8906V24H40.1719V0Z" fill="${color}"/><path fill-rule="evenodd" clip-rule="evenodd" d="M18.9972 12.0192L16.1598 11.5232L18.9596 10.8937C20.1578 10.6523 21.2145 10.0353 21.9285 9.06245C22.5862 8.12775 22.9244 7.0023 22.9056 5.85777C22.9056 5.09474 22.7741 4.33172 22.511 3.62593C22.2292 2.92013 21.797 2.29064 21.2521 1.79468C20.5756 1.20334 19.8052 0.764604 18.9596 0.497547C17.8322 0.135112 16.7404 0 15.5572 0L0 0.00158322V18L4.68592 24H15.5572C16.8224 24 18.0953 23.846 19.2979 23.4835C20.1998 23.1974 21.0266 22.7205 21.7406 22.091C22.3419 21.5378 22.7929 20.8702 23.0935 20.1072C23.3942 19.2869 23.5257 18.4476 23.5257 17.5701C23.5821 16.2539 23.2063 14.9759 22.4547 13.9076C21.5715 12.8585 20.3572 12.293 18.9972 12.0192ZM18.4147 20.2598C17.3436 21.0991 16.0006 21.375 14.6435 21.375H2.9287V13.0312H14.6435C16.391 13.0312 17.6631 13.3926 18.4523 14.1747C18.8469 14.5753 19.1475 15.0331 19.3542 15.5672C19.5609 16.0822 19.6549 16.6354 19.6361 17.2077C19.6549 17.78 19.5609 18.3522 19.3542 18.8673C19.1475 19.4014 18.8281 19.8783 18.4147 20.2598ZM2.9287 2.625H14.3858C15.1382 2.625 15.8592 2.72938 16.5732 2.95829C17.1182 3.12997 17.6067 3.43517 18.0201 3.83576C18.3771 4.17912 18.6402 4.61785 18.7905 5.09474C18.922 5.5144 18.9972 5.93407 18.9972 6.37281C18.9972 6.84969 18.9408 7.32658 18.8281 7.78439C18.7153 8.29943 18.4711 8.79539 18.1141 9.19598C17.7195 9.61564 17.2121 9.959 16.6672 10.1498C15.9344 10.4168 15.1804 10.5 14.3858 10.5H2.9287V2.625Z" fill="${color}"/></svg>`
 }
 
 const THEMES = {
@@ -29,18 +29,47 @@ const THEMES = {
   },
 }
 
-function wabiLogoImg(baseUrl) {
-  return `<img src="${baseUrl}/wabi-logo-dark.png" alt="wabi" width="86" height="20" style="display:inline-block;vertical-align:middle;" />`
-}
-
-function renderHeader(fs, baseUrl) {
+function renderHeader(fs) {
   return `<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
   <tr>
     <td style="padding:24px 24px 0;text-align:center;">
-      <a href="https://wabi.ai" target="_blank" style="text-decoration:none;">${wabiLogoImg(baseUrl)}</a>
+      <a href="https://bilt.com" target="_blank" style="text-decoration:none;">${biltLogoSvg('#737373')}</a>
     </td>
   </tr>
 </table>`
+}
+
+async function fetchAsBase64(path) {
+  try {
+    const res = await fetch(path)
+    const blob = await res.blob()
+    return await new Promise((resolve) => {
+      const reader = new FileReader()
+      reader.onload = () => resolve(reader.result)
+      reader.readAsDataURL(blob)
+    })
+  } catch {
+    return ''
+  }
+}
+
+export async function fetchIconsAsBase64() {
+  const files = ['brand-twitter.png', 'brand-instagram.png', 'brand-tiktok.png']
+  const result = {}
+  await Promise.all(files.map(async (file) => {
+    result[file] = await fetchAsBase64(`/${file}`)
+  }))
+  return result
+}
+
+export async function fetchGTAmericaFontFace() {
+  const [normal, italic] = await Promise.all([
+    fetchAsBase64('/fonts/GT-America-VF.woff2'),
+    fetchAsBase64('/fonts/GT-America-Italic-VF.woff2'),
+  ])
+  if (!normal) return ''
+  const italicFace = italic ? `\n    @font-face { font-family: 'GT America'; src: url('${italic}') format('woff2'); font-weight: 100 900; font-style: italic; }` : ''
+  return `@font-face { font-family: 'GT America'; src: url('${normal}') format('woff2'); font-weight: 100 900; font-style: normal; }${italicFace}`
 }
 
 function renderHeading(content, t, fs) {
@@ -60,11 +89,11 @@ function renderHeading(content, t, fs) {
     else if (style === 'h2') { fontSize = '24px'; fontWeight = '500'; lineHeight = '28px' }
     else { fontSize = '20px'; fontWeight = '500'; lineHeight = '24px' }
 
-    parts.push(`<p class="wabi-text-primary" style="margin:0;font-family:${fs};font-size:${fontSize};font-weight:${fontWeight};line-height:${lineHeight};color:${t.textPrimary};">${escapeHtml(h1Text)}</p>`)
+    parts.push(`<p class="bilt-text-primary" style="margin:0;font-family:${fs};font-size:${fontSize};font-weight:${fontWeight};line-height:${lineHeight};color:${t.textPrimary};">${escapeHtml(h1Text)}</p>`)
   }
 
   if (h2Text) {
-    parts.push(`<p class="wabi-text-primary" style="margin:0;font-family:${fs};font-size:24px;font-weight:500;line-height:28px;color:${t.textPrimary};">${escapeHtml(h2Text)}</p>`)
+    parts.push(`<p class="bilt-text-primary" style="margin:0;font-family:${fs};font-size:24px;font-weight:500;line-height:28px;color:${t.textPrimary};">${escapeHtml(h2Text)}</p>`)
   }
 
   if (parts.length === 0) return ''
@@ -81,7 +110,7 @@ function renderHeading(content, t, fs) {
 function renderParagraph(content, t, fs) {
   return `<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
   <tr>
-    <td class="wabi-text-secondary" style="padding:0 24px;font-family:${fs};font-size:18px;font-weight:400;line-height:22px;color:${t.textSecondary};">
+    <td class="bilt-text-secondary" style="padding:0 24px;font-family:${fs};font-size:18px;font-weight:400;line-height:22px;color:${t.textSecondary};">
       ${escapeHtml(content.text || '')}
     </td>
   </tr>
@@ -99,11 +128,11 @@ function normalizeUrl(url) {
 function renderCta(content, t, fs) {
   const btnShadow = '0 0 0 0 rgba(0,0,0,0.02),0 2px 4px 0 rgba(0,0,0,0.16)'
   const primaryHref = content.primaryLink ? escapeAttr(normalizeUrl(content.primaryLink)) : '#'
-  const primaryBtn = `<a href="${primaryHref}" target="_blank" class="wabi-btn-primary" style="display:inline-block;padding:16px 24px;background:${t.btnPrimaryBg};color:${t.btnPrimaryText};font-family:${fs};font-size:14px;font-weight:500;line-height:20px;text-decoration:none;border-radius:999px;box-shadow:${btnShadow};">${escapeHtml(content.primaryLabel || 'Button')}</a>`
+  const primaryBtn = `<a href="${primaryHref}" target="_blank" class="bilt-btn-primary" style="display:inline-block;padding:16px 24px;background:${t.btnPrimaryBg};color:${t.btnPrimaryText};font-family:${fs};font-size:14px;font-weight:500;line-height:20px;text-decoration:none;border-radius:999px;box-shadow:${btnShadow};">${escapeHtml(content.primaryLabel || 'Button')}</a>`
 
   const secondaryHref = content.secondaryLink ? escapeAttr(normalizeUrl(content.secondaryLink)) : '#'
   const secondaryBtn = content.layout === 'double'
-    ? `<!--[if mso]>&nbsp;&nbsp;<![endif]--><a href="${secondaryHref}" target="_blank" class="wabi-btn-secondary" style="display:inline-block;padding:16px 24px;background:${t.btnSecondaryBg};color:${t.btnSecondaryText};font-family:${fs};font-size:14px;font-weight:500;line-height:20px;text-decoration:none;border-radius:999px;box-shadow:${btnShadow};margin-left:12px;">${escapeHtml(content.secondaryLabel || 'Button')}</a>`
+    ? `<!--[if mso]>&nbsp;&nbsp;<![endif]--><a href="${secondaryHref}" target="_blank" class="bilt-btn-secondary" style="display:inline-block;padding:16px 24px;background:${t.btnSecondaryBg};color:${t.btnSecondaryText};font-family:${fs};font-size:14px;font-weight:500;line-height:20px;text-decoration:none;border-radius:999px;box-shadow:${btnShadow};margin-left:12px;">${escapeHtml(content.secondaryLabel || 'Button')}</a>`
     : ''
 
   return `<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
@@ -119,7 +148,7 @@ function renderDivider(t) {
   return `<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
   <tr>
     <td style="padding:0 24px;">
-      <div class="wabi-border" style="border-top:1px solid ${t.border};"></div>
+      <div class="bilt-border" style="border-top:1px solid ${t.border};"></div>
     </td>
   </tr>
 </table>`
@@ -165,29 +194,33 @@ function renderVideo(content) {
 </table>`
 }
 
-function renderFooter(content, t, fs, baseUrl) {
+function renderFooter(content, t, fs, iconData = {}) {
   const unsubText = content.unsubscribeText || ''
   const socialIcons = [
-    { name: 'X', href: 'https://x.com/wabi', file: 'brand-twitter.png' },
-    { name: 'Discord', href: 'https://discord.gg/wabi', file: 'brand-discord.png' },
-    { name: 'Instagram', href: 'https://www.instagram.com/joinwabi', file: 'brand-instagram.png' },
-    { name: 'TikTok', href: 'https://www.tiktok.com/@gotwabi', file: 'brand-tiktok.png' },
+    { name: 'X', href: 'https://x.com/BiltRewards', file: 'brand-twitter.png' },
+    { name: 'Instagram', href: 'https://www.instagram.com/bilt/', file: 'brand-instagram.png' },
+    { name: 'TikTok', href: 'https://www.tiktok.com/@biltrewards', file: 'brand-tiktok.png' },
+    { name: 'LinkedIn', href: 'https://www.linkedin.com/company/biltrewards/posts/?feedView=all', file: null },
   ]
-  const iconCircles = socialIcons.map(icon =>
-    `<a href="${icon.href}" target="_blank" class="wabi-social-icon" style="display:inline-block;text-decoration:none;width:32px;height:32px;border-radius:999px;background:#F5F5F5;text-align:center;line-height:32px;margin:0 4px;box-shadow:0 0 0 0 rgba(0,0,0,0.02),0 2px 4px 0 rgba(0,0,0,0.16);vertical-align:middle;font-size:0;" title="${icon.name}"><!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" style="width:32px;height:32px" arcsize="50%" fillcolor="#eeeeee" stroke="f"><v:textbox inset="0,0,0,0" style="mso-fit-shape-to-text:true"><center><![endif]--><img src="${baseUrl}/${icon.file}" alt="${icon.name}" width="14" height="14" style="vertical-align:middle;" /><!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a>`
-  ).join('')
+  const linkedInInlineSvg = `<svg width="14" height="14" viewBox="4.95 4.98 13.88 13.85" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;"><path d="M8.0587 18.8272H5.1813V9.57404H8.0587V18.8272Z" fill="#737373"/><path d="M6.62 8.31328C5.6962 8.31328 4.95035 7.56743 4.95035 6.64742C4.95035 5.7274 5.6962 4.98155 6.62 4.98155C7.54001 4.98155 8.28586 5.7274 8.28586 6.64742C8.28586 7.56364 7.54001 8.31328 6.62 8.31328Z" fill="#737373"/><path d="M18.8262 18.8272H15.9526V14.3293C15.9526 13.2579 15.9337 11.876 14.4571 11.876C12.9616 11.876 12.7345 13.0459 12.7345 14.2536V18.8272H9.86465V9.57404H12.6209V10.8386H12.6588C13.0412 10.1117 13.9801 9.34309 15.3772 9.34309C18.2886 9.34309 18.8262 11.2588 18.8262 13.7501V18.8272Z" fill="#737373"/></svg>`
+  const iconCircles = socialIcons.map(icon => {
+    const iconContent = icon.file === null
+      ? linkedInInlineSvg
+      : `<img src="${iconData[icon.file] || ''}" alt="${icon.name}" width="14" height="14" style="vertical-align:middle;" />`
+    return `<a href="${icon.href}" target="_blank" class="bilt-social-icon" style="display:inline-block;text-decoration:none;width:32px;height:32px;border-radius:999px;background:#F5F5F5;text-align:center;line-height:32px;margin:0 4px;box-shadow:0 0 0 0 rgba(0,0,0,0.02),0 2px 4px 0 rgba(0,0,0,0.16);vertical-align:middle;font-size:0;" title="${icon.name}"><!--[if mso]><v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" style="width:32px;height:32px" arcsize="50%" fillcolor="#eeeeee" stroke="f"><v:textbox inset="0,0,0,0" style="mso-fit-shape-to-text:true"><center><![endif]-->${iconContent}<!--[if mso]></center></v:textbox></v:roundrect><![endif]--></a>`
+  }).join('')
 
   return `<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation">
   <tr>
     <td style="padding:0 20px;font-family:${fs};">
-      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" class="wabi-border" style="border-top:1px solid ${t.border};">
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation" class="bilt-border" style="border-top:1px solid ${t.border};">
         <tr>
           <td style="padding:32px 0 64px;text-align:center;">
             <p style="margin:0 0 24px 0;font-size:14px;font-weight:400;line-height:16px;color:#737373;">${escapeHtml(unsubText)}</p>
-            <p style="margin:0 0 24px 0;font-size:14px;font-weight:400;line-height:16px;color:#737373;">&copy; 2025 Wabi Inc. All rights reserved.</p>
-            <p style="margin:0 0 24px 0;font-size:14px;font-weight:400;line-height:16px;color:#737373;"><a href="https://apps.apple.com/us/app/wabi/id6747768928" target="_blank" style="color:#737373;text-decoration:underline;">Download on the App Store</a> &middot; <a href="https://wabi.ai" target="_blank" style="color:#737373;text-decoration:underline;">wabi.ai</a> &middot; <a href="#" target="_blank" style="color:#737373;text-decoration:underline;">Unsubscribe</a></p>
+            <p style="margin:0 0 24px 0;font-size:14px;font-weight:400;line-height:16px;color:#737373;">&copy; 2025 Bilt Inc. All rights reserved.</p>
+            <p style="margin:0 0 24px 0;font-size:14px;font-weight:400;line-height:16px;color:#737373;"><a href="https://www.bilt.com/app" target="_blank" style="color:#737373;text-decoration:underline;">Get the Bilt app</a> &middot; <a href="https://bilt.com" target="_blank" style="color:#737373;text-decoration:underline;">bilt.com</a> &middot; <a href="#" target="_blank" style="color:#737373;text-decoration:underline;">Unsubscribe</a></p>
             <p style="margin:0 0 24px 0;padding-top:8px;">${iconCircles}</p>
-            <p style="margin:0;padding-top:16px;"><a href="https://wabi.ai" target="_blank" style="text-decoration:none;">${wabiLogoImg(baseUrl)}</a></p>
+            <p style="margin:0;padding-top:16px;"><a href="https://bilt.com" target="_blank" style="text-decoration:none;">${biltLogoSvg('#737373')}</a></p>
           </td>
         </tr>
       </table>
@@ -208,33 +241,34 @@ function escapeAttr(str) {
   return escapeHtml(str).replace(/'/g, '&#39;')
 }
 
-function renderBlock(block, t, fs, baseUrl) {
+function renderBlock(block, t, fs, iconData) {
   switch (block.type) {
-    case 'header': return renderHeader(fs, baseUrl)
+    case 'header': return renderHeader(fs)
     case 'heading': return renderHeading(block.content, t, fs)
     case 'paragraph': return renderParagraph(block.content, t, fs)
     case 'cta': return renderCta(block.content, t, fs)
     case 'divider': return renderDivider(t)
     case 'image': return renderImage(block.content)
     case 'video': return renderVideo(block.content)
-    case 'footer': return renderFooter(block.content, t, fs, baseUrl)
+    case 'footer': return renderFooter(block.content, t, fs, iconData)
     default: return ''
   }
 }
 
 export function renderEmailHTML(blocks, options = {}) {
-  const { subject, preheader, fontUrl, fontFamily, baseUrl = '' } = options
+  const { subject, preheader, fontUrl, fontFamily, iconData = {}, fontFaceCSS = '' } = options
   const light = THEMES.light
   const dark = THEMES.dark
   const t = light
   const fs = fontFamily ? `'${fontFamily}', ${FONT_STACK}` : FONT_STACK
-  const renderedBlocks = blocks.map(block => renderBlock(block, t, fs, baseUrl)).filter(Boolean)
+  const renderedBlocks = blocks.map(block => renderBlock(block, t, fs, iconData)).filter(Boolean)
   const spacer = `<table width="100%" cellpadding="0" cellspacing="0" border="0" role="presentation"><tr><td style="height:32px;font-size:0;line-height:0;">&nbsp;</td></tr></table>`
   const bodyContent = renderedBlocks.join(`\n${spacer}\n`)
 
   const preheaderHtml = preheader ? `<div style="display:none;font-size:1px;color:#ffffff;line-height:1px;max-height:0px;max-width:0px;opacity:0;overflow:hidden;">${escapeHtml(preheader)}${'&#847; &zwnj; &nbsp; '.repeat(30)}</div>` : ''
 
   const fontLink = fontUrl ? `<link href="${escapeAttr(fontUrl)}" rel="stylesheet" />` : ''
+  const fontFaceStyle = fontFaceCSS ? `<style>${fontFaceCSS}</style>` : ''
 
   return `<!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -244,18 +278,19 @@ export function renderEmailHTML(blocks, options = {}) {
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="color-scheme" content="light dark" />
   <meta name="supported-color-schemes" content="light dark" />
-  <title>${escapeHtml(subject || 'Wabi Email')}</title>
+  <title>${escapeHtml(subject || 'Bilt Email')}</title>
   ${fontLink}
+  ${fontFaceStyle}
   <style>
     :root { color-scheme: light dark; }
     @media (prefers-color-scheme: dark) {
-      body, .wabi-bg { background: ${dark.bg} !important; }
-      .wabi-text-primary { color: ${dark.textPrimary} !important; }
-      .wabi-text-secondary { color: ${dark.textSecondary} !important; }
-      .wabi-border { border-color: ${dark.border} !important; }
-      .wabi-btn-primary { background: ${dark.btnPrimaryBg} !important; color: ${dark.btnPrimaryText} !important; }
-      .wabi-btn-secondary { background: ${dark.btnSecondaryBg} !important; color: ${dark.btnSecondaryText} !important; }
-      .wabi-social-icon { background: #262626 !important; }
+      body, .bilt-bg { background: ${dark.bg} !important; }
+      .bilt-text-primary { color: ${dark.textPrimary} !important; }
+      .bilt-text-secondary { color: ${dark.textSecondary} !important; }
+      .bilt-border { border-color: ${dark.border} !important; }
+      .bilt-btn-primary { background: ${dark.btnPrimaryBg} !important; color: ${dark.btnPrimaryText} !important; }
+      .bilt-btn-secondary { background: ${dark.btnSecondaryBg} !important; color: ${dark.btnSecondaryText} !important; }
+      .bilt-social-icon { background: #262626 !important; }
     }
   </style>
   <!--[if mso]>
@@ -268,13 +303,13 @@ export function renderEmailHTML(blocks, options = {}) {
   </noscript>
   <![endif]-->
 </head>
-<body class="wabi-bg" style="margin:0;padding:0;background:${t.bg};color:${t.textPrimary};-webkit-text-size-adjust:none;text-size-adjust:none;">
+<body class="bilt-bg" style="margin:0;padding:0;background:${t.bg};color:${t.textPrimary};-webkit-text-size-adjust:none;text-size-adjust:none;">
   ${preheaderHtml}
-  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="wabi-bg" style="background:${t.bg};">
+  <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="bilt-bg" style="background:${t.bg};">
     <tr>
       <td align="center" style="padding:0;">
         <!--[if mso]><table role="presentation" cellpadding="0" cellspacing="0" border="0" width="600"><tr><td><![endif]-->
-        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="wabi-bg" style="max-width:600px;background:${t.bg};">
+        <table role="presentation" cellpadding="0" cellspacing="0" border="0" width="100%" class="bilt-bg" style="max-width:600px;background:${t.bg};">
           <tr>
             <td>
 ${bodyContent}
@@ -289,8 +324,7 @@ ${bodyContent}
 </html>`
 }
 
-export function downloadEmailHTML(blocks, options = {}, filename = 'wabi-email.html') {
-  const html = renderEmailHTML(blocks, options)
+function triggerDownload(html, filename) {
   const blob = new Blob([html], { type: 'text/html;charset=utf-8' })
   const url = URL.createObjectURL(blob)
   const a = document.createElement('a')
@@ -302,20 +336,19 @@ export function downloadEmailHTML(blocks, options = {}, filename = 'wabi-email.h
   URL.revokeObjectURL(url)
 }
 
-export function renderCustomerIoHTML(blocks, options = {}) {
-  const html = renderEmailHTML(blocks, options)
-  return html.replace(/href="#"([^>]*>Unsubscribe)/g, 'href="{{ unsubscribe_url }}"$1')
+export async function downloadEmailHTML(blocks, options = {}, filename = 'bilt-email.html') {
+  const [iconData, fontFaceCSS] = await Promise.all([fetchIconsAsBase64(), fetchGTAmericaFontFace()])
+  const html = renderEmailHTML(blocks, { ...options, iconData, fontFaceCSS })
+  triggerDownload(html, filename)
 }
 
-export function downloadCustomerIoHTML(blocks, options = {}, filename = 'wabi-email-customerio.html') {
-  const html = renderCustomerIoHTML(blocks, options)
-  const blob = new Blob([html], { type: 'text/html;charset=utf-8' })
-  const url = URL.createObjectURL(blob)
-  const a = document.createElement('a')
-  a.href = url
-  a.download = filename
-  document.body.appendChild(a)
-  a.click()
-  document.body.removeChild(a)
-  URL.revokeObjectURL(url)
+export async function renderBrazeHTML(blocks, options = {}) {
+  const [iconData, fontFaceCSS] = await Promise.all([fetchIconsAsBase64(), fetchGTAmericaFontFace()])
+  const html = renderEmailHTML(blocks, { ...options, iconData, fontFaceCSS })
+  return html.replace(/href="#"([^>]*>Unsubscribe)/g, 'href="{{${unsubscribe_url}}}"$1')
+}
+
+export async function downloadBrazeHTML(blocks, options = {}, filename = 'bilt-email-braze.html') {
+  const html = await renderBrazeHTML(blocks, options)
+  triggerDownload(html, filename)
 }

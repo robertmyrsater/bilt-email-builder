@@ -55,7 +55,7 @@ export const TEMPLATES = [
     description: 'Welcome flows and user activation',
     blocks: [
       block('t4-1', COMPONENT_TYPES.HEADER),
-      block('t4-2', COMPONENT_TYPES.HEADING, { h1: 'Welcome to Wabi' }),
+      block('t4-2', COMPONENT_TYPES.HEADING, { h1: 'Welcome to Bilt' }),
       block('t4-3', COMPONENT_TYPES.PARAGRAPH),
       block('t4-4', COMPONENT_TYPES.DIVIDER),
       block('t4-5', COMPONENT_TYPES.HEADING, { h1: 'What you can do', h2: '' }),

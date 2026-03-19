@@ -41,6 +41,6 @@ export const defaultContent = {
     size: 'medium',
   },
   [COMPONENT_TYPES.FOOTER]: {
-    unsubscribeText: 'You are receiving this email because you opted-in to receive updates from Wabi.',
+    unsubscribeText: 'You are receiving this email because you opted-in to receive updates from Bilt.',
   },
 }

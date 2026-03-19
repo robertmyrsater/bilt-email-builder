@@ -31,9 +31,9 @@ export default async function handler(req, res) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        from: process.env.RESEND_FROM || 'Wabi Email Builder <onboarding@resend.dev>',
+        from: process.env.RESEND_FROM || 'Bilt Email Builder <onboarding@resend.dev>',
         to: [to],
-        subject: subject || 'Test Email from Wabi',
+        subject: subject || 'Test Email from Bilt',
         html,
       }),
     })

@@ -55,7 +55,7 @@
 .design-switcher-name {
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--text-primary);
   white-space: nowrap;
   overflow: hidden;
@@ -64,7 +64,7 @@
 
 .design-switcher-count {
   font-size: 10px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--text-tertiary);
 }
 
@@ -115,7 +115,7 @@
 .design-menu-item-name {
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--text-primary);
   white-space: nowrap;
   overflow: hidden;
@@ -124,7 +124,7 @@
 
 .design-menu-item-count {
   font-size: 10px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--text-tertiary);
 }
 
@@ -160,7 +160,7 @@
   padding: 8px 10px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--text-secondary);
   background: none;
   border: none;
@@ -264,6 +264,7 @@
 .email-frame {
   width: 600px;
   background: var(--email-bg);
+  font-family: 'GT America', 'Inter', sans-serif;
   border-radius: var(--radius);
   box-shadow: 0 0 0 1px var(--border), 0 8px 40px rgba(0, 0, 0, 0.3);
   transition: width 0.3s ease;
@@ -358,7 +359,7 @@
   padding: 4px 8px;
   font-size: 11px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   border: 1px solid var(--border);
   border-radius: 4px;
   background: transparent;
@@ -436,7 +437,7 @@
   font-size: 18px;
   font-weight: 600;
   color: var(--email-text);
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
 }
 
 .email-header svg,
@@ -447,7 +448,7 @@
 
 .email-heading {
   padding: 20px 24px 0;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -491,7 +492,7 @@
 
 .email-paragraph {
   padding: 0 24px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -512,7 +513,7 @@
   justify-content: center;
   padding: 16px 24px;
   border-radius: 999px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -552,7 +553,7 @@
 .cta-link-label {
   font-size: 10px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--email-secondary);
   width: 56px;
   flex-shrink: 0;
@@ -562,7 +563,7 @@
   flex: 1;
   padding: 6px 10px;
   font-size: 11px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--email-text);
   background: rgba(128, 128, 128, 0.1);
   border: 1px solid var(--email-border);
@@ -601,7 +602,7 @@
   padding: 4px 10px;
   font-size: 10px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: rgba(255, 255, 255, 0.7);
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
@@ -617,7 +618,7 @@
   padding: 4px 10px;
   font-size: 10px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: rgba(255, 255, 255, 0.7);
   background: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(8px);
@@ -649,7 +650,7 @@
   border: 1px solid var(--border-strong);
   border-radius: 4px;
   color: var(--text-primary);
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   font-size: 11px;
   outline: none;
 }
@@ -662,7 +663,7 @@
   padding: 4px 10px;
   font-size: 11px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   border: 1px solid var(--border);
   border-radius: 4px;
   background: transparent;
@@ -678,7 +679,7 @@
 
 .email-footer {
   padding: 0 20px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
 }
 
 .email-footer-inner {
@@ -776,7 +777,7 @@
   cursor: pointer;
   color: var(--email-secondary);
   font-size: 13px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   transition: border-color 0.15s;
 }
 
@@ -794,7 +795,7 @@
   padding: 6px 14px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   border-radius: 6px;
   cursor: pointer;
   transition: all 0.15s;
@@ -822,7 +823,7 @@
   border: 1px solid rgba(128, 128, 128, 0.3);
   border-radius: var(--radius-sm);
   color: var(--email-text);
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   font-size: 13px;
   outline: none;
 }
@@ -837,7 +838,7 @@
   border: none;
   border-radius: var(--radius-sm);
   color: var(--email-bg);
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   font-size: 13px;
   font-weight: 500;
   cursor: pointer;
@@ -926,7 +927,7 @@
   transition: color 0.15s;
   background: none;
   border: none;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   text-decoration: underline;
   text-underline-offset: 2px;
 }
@@ -985,7 +986,7 @@
   flex: 1;
   padding: 8px 16px;
   font-size: 12px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   font-weight: 400;
   color: var(--text-primary);
   background: var(--surface);
@@ -1008,7 +1009,7 @@
   width: 100%;
   padding: 6px 10px;
   font-size: 11px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--text-primary);
   background: var(--surface-2);
   border: 1px solid var(--border);
@@ -1046,7 +1047,7 @@
   padding: 8px 12px;
   font-size: 12px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--text-primary);
   background: none;
   border: none;
@@ -1075,7 +1076,7 @@
   width: 100%;
   padding: 10px 14px;
   font-size: 13px;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: var(--text-primary);
   background: var(--surface-2);
   border: 1px solid var(--border-strong);
@@ -1095,7 +1096,7 @@
   padding: 10px;
   font-size: 13px;
   font-weight: 500;
-  font-family: 'Selecta', sans-serif;
+  font-family: 'GT America', sans-serif;
   color: #000;
   background: var(--accent);
   border: none;
