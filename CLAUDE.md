@@ -48,11 +48,13 @@ Collision detection uses `closestCenter`.
 
 `renderEmailHTML()` in `emailRenderer.js` produces table-based, email-client-safe HTML with:
 - Light/dark theme via CSS media queries
-- Google Fonts via `fontUrl`
+- GT America VF embedded as base64 `@font-face` at export time (falls back to Inter → system fonts)
+- Social icon PNGs embedded as base64 data URIs at export time (self-contained, no hosted URL needed)
+- Google Fonts also supported via `fontUrl` option
 - MSO (Outlook) conditional comments where needed
 - Max width 600px
 
-Export paths: copy to clipboard, download `.html`, Customer.io export (injects `{{ unsubscribe_url }}`), or send test via `/api/send-email`.
+Export paths: copy to clipboard, download `.html`, Braze export (injects `{{${unsubscribe_url}}}` Liquid syntax), or send test via `/api/send-email`.
 
 ### Deployment
 
